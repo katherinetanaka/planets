@@ -6,7 +6,7 @@ echo "The planets of the solar system are:"
 echo
 
 # Section 2 - Display the planet information
-echo "Earth:"
-cat data/Earth
-echo
-
+for planet in data
+do
+    echo "$planet"
+    cat "  $planet"
