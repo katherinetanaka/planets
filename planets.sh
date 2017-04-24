@@ -6,9 +6,10 @@ echo "The planets of the solar system are:"
 echo
 
 # Section 2 - Display the planet information
-for planet in data/*
-do
-    echo "$(basename $planet):"
-    echo -n "  "
-    cat $planet
-done
+
+## Earth
+echo "Earth:"
+cat data/Earth
+echo
+
+## Add other planets here
